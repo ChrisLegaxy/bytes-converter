@@ -1,0 +1,29 @@
+{
+  "name": "bytes-converter",
+  "version": "1.0.0",
+  "engines": {
+    "node": "14.19.3"
+  },
+  "packageManager": "yarn@1.22.4",
+  "description": "Automatically convert bytes to various sizes",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "ts-node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Chris Van",
+  "contributors": [
+    {
+      "name": "Chris Van",
+      "email": "chrislegaxy@gmail.com",
+      "url": "https://chrisvan.netlify.app"
+    }
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "ts-node": "10.8.1",
+    "typescript": "4.7.4"
+  }
+}
